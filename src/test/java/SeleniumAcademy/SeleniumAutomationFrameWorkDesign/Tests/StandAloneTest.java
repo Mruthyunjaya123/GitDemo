@@ -30,6 +30,13 @@ public class StandAloneTest {
 	    System.out.println("Git value 2 Updated");
 	    System.out.println("Git value 3 Updated");
 	    
+	    
+	    System.out.println("Git value 4 Updated");
+	    System.out.println("Git value 5 Updated");
+	    System.out.println("Git value 6 Updated");
+	    
+	    
+	    
 	    WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(5));
 	    wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".mb-3")));
 	    
