@@ -16,6 +16,9 @@ import org.testng.Assert;
 public class StandAloneTest {
 
 	public static void main(String[] args) throws InterruptedException {
+		
+		System.out.println("New develop branch added to the git class StandAloneTest1");
+		System.out.println("New develop branch added to the git class StandAloneTest2");
       
 		String productName="ZARA COAT 3";
 		WebDriver driver=new ChromeDriver();
@@ -29,13 +32,6 @@ public class StandAloneTest {
 	    System.out.println("Git value 1 Updated");
 	    System.out.println("Git value 2 Updated");
 	    System.out.println("Git value 3 Updated");
-	    
-	    
-	    System.out.println("Git value 4 Updated");
-	    System.out.println("Git value 5 Updated");
-	    System.out.println("Git value 6 Updated");
-	    
-	    
 	    
 	    WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(5));
 	    wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".mb-3")));

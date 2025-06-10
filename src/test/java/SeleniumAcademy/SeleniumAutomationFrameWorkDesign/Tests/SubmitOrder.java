@@ -36,7 +36,8 @@ public class SubmitOrder extends BaseTest {
 		//LandingPage landingPage=launchAppilcation();
 		
        System.out.println(" US guy changes");
-		
+       System.out.println("New develop branch added to the git class SubmitOrder1");
+       System.out.println("New develop branch added to the git class SubmitOrder2");
 	    
 		landingPage.loginApplication(email, password);
 	    //landingPage.loginApplication("mruthyunjaya3t@gmail.com", "Ashu@1994");
