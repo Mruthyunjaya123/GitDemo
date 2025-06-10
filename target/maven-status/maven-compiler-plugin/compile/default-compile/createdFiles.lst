@@ -1,0 +1,7 @@
+SeleniumAcademy\SeleniumAutomationFrameWorkDesign\ConfirmationPage.class
+SeleniumAcademy\SeleniumAutomationFrameWorkDesign\ProductCatalogue.class
+SeleniumAcademy\SeleniumAutomationFrameWorkDesign\CartPage.class
+SeleniumAcademy\SeleniumAutomationFrameWorkDesign\LandingPage.class
+SeleniumAcademy\SeleniumAutomationFrameWorkDesign\CheckoutPage.class
+Resources\ExtentReporterNG.class
+AbstractComponents\AbstractComponents.class
