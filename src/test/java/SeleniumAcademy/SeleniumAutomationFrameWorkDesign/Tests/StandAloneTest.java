@@ -19,6 +19,8 @@ public class StandAloneTest {
 		
 		System.out.println("New develop branch added to the git class StandAloneTest1");
 		System.out.println("New develop branch added to the git class StandAloneTest2");
+		System.out.println("New develop branch added to the git class StandAloneTest3 by ameriaca");
+		
       
 		String productName="ZARA COAT 3";
 		WebDriver driver=new ChromeDriver();
