@@ -26,6 +26,10 @@ public class StandAloneTest {
 	    driver.findElement(By.id("userPassword")).sendKeys("Ashu@1994");
 	    driver.findElement(By.id("login")).click();
 	    
+	    System.out.println("Git value 1 Updated");
+	    System.out.println("Git value 2 Updated");
+	    System.out.println("Git value 3 Updated");
+	    
 	    WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(5));
 	    wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".mb-3")));
 	    
